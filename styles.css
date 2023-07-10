@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Ysabeau+Infant:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.BG {
+  background-color: #f5f5f5;
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  background-color: #f9f9f9;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 45px 0px 45px 0px;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 30px;
+  display: flex;
+}
+
+/* portfolio */
+font-f {
+
+  font-family: 'Raleway Dots', cursive;
+  font-family: 'Ysabeau Infant', sans-serif;
+  letter-spacing: 10px;
+}
+
+.Email {
+  /* padding-left: 150vh; */
+  font-size: 13px;
+  padding-left: 73%;
+  position: absolute;
+}
+
+nav {
+  /* background-color: #f2f2f2; */
+  padding: 0px;
+  position: sticky;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 0px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 0px;
+
+}
+
+.height-i {
+  height: 28px;
+  width: 28px;
+  display: flex;
+}
+
+section {
+  padding: 0px 20px 20px 0px;
+}
+
+.car-size {
+  width: 10%;
+}
+/* #myCarousel {
+  height: 400px; /* Adjust the height as desired */
+  width: 100%; /* Adjust the width as desired */
+} */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* this is twin color effect */
+
+/* .logo a:hover {
+  scale: 1.05;
+  color: teal;
+}
+new:hover {
+  scale: 1.05;
+  color: crimson;
+} */
+
+/* end */
+
+/* this is for flex box */
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  width: 410px;
+  height: 240px;
+  perspective: 1000px;
+  margin:3% 0% 0% 70%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+  transform: rotateY(0deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 6px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.flip-card-front {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-back {
+  background-color: #e0e0e0;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3bac41;
+  font-weight: bold;
+}

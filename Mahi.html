@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portify.css">
+    <script src="its.js"></script>
+</head>
+<body>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <h4>"Welcome to my portfolio! As a passionate and aspiring frontend developer, I'm excited to showcase my skills and projects to you. With a solid foundation in HTML, CSS, and JavaScript, I'm constantly honing my abilities to create engaging and user-friendly web experiences.</h4>
+          </div>
+          <div class="flip-card-back">
+            <h4>Throughout my journey, I've embraced a user-centric approach, prioritizing intuitive interfaces and seamless interactions. I believe that well-structured code combined with thoughtful design can make a significant impact on user satisfaction.</h4>
+          </div>
+        </div>
+      </div>
+      
+</body>
+<script>
+        var flipCard = document.querySelector('.flip-card');
+
+flipCard.addEventListener('click', function() {
+  flipCard.classList.toggle('flipped');
+});
+</script>
+</html>
